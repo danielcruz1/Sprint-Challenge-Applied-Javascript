@@ -43,14 +43,14 @@ function createCard(data) {
     div1.classList.add('card');
 
     const div2 = document.createElement('div');
-    div2.classList.add('headeline')
+    div2.classList.add('headeline');
     div2.textContent = data.headline;
 
     const div3 = document.createElement('div');
     div3.classList.add('author');
 
     const div4 = document.createElement('div');
-    div4.classList.add('img-container')
+    div4.classList.add('img-container');
 
     const img = document.createElement('img');
     img.src = data.authorPhoto;
